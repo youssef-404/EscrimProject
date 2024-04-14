@@ -1,0 +1,36 @@
+/* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+
+.root {
+	-fx-font-family: "Google Sans";
+}
+.menu-button {
+	-fx-background-radius: 10px;
+	-fx-background-color: transparent;
+	-fx-text-fill: white;
+	-fx-font-size: 16px;
+	
+}
+
+.menu-button:hover{
+	-fx-background-color: #26266E;
+}
+
+
+.inventory-button {
+	-fx-background-color: transparent;
+	-fx-border-radius: 10px;
+	-fx-border-color: #C8CCD5;
+	-fx-text-fill: black;
+}
+
+.search-bar{
+	-fx-border-radius: 10px;
+	-fx-border-color: #C8CCD5;
+}
+
+.download-button{
+	-fx-background-radius: 10px;
+	-fx-background-color: #35CDC5;
+	-fx-text-fill: white;
+	-fx-font-size: 14px;
+}
