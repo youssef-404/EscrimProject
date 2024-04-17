@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="905.0" styleClass="pane" stylesheets="@../resources/css/application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controller.SideMenuController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="537.0" prefWidth="905.0" styleClass="pane" stylesheets="@../resources/css/application.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="537.0" prefWidth="905.0">
          <children>
@@ -45,7 +45,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button fx:id="configurationButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="174.0" styleClass="menu-button" stylesheets="@../resources/css/application.css" text="Configuration">
+                        <Button  fx:id="configurationButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="174.0" styleClass="menu-button" stylesheets="@../resources/css/application.css" text="Configuration">
                            <graphic>
                               <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" translateX="-10.0">
                                  <image>
@@ -54,7 +54,7 @@
                               </ImageView>
                            </graphic>
                         </Button>
-                        <Button fx:id="statisticsButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="174.0" styleClass="menu-button" stylesheets="@../resources/css/application.css" text="Statistics">
+                        <Button  fx:id="statisticsButton" mnemonicParsing="false" prefHeight="47.0" prefWidth="174.0" styleClass="menu-button" stylesheets="@../resources/css/application.css" text="Statistics">
                            <graphic>
                               <ImageView fitHeight="22.0" fitWidth="22.0" pickOnBounds="true" preserveRatio="true" translateX="-10.0">
                                  <image>
