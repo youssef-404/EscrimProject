@@ -4,4 +4,5 @@ module Escrim {
 	requires javafx.swt;
 
 	opens application to javafx.graphics, javafx.fxml;
+	opens application.controller to javafx.graphics, javafx.fxml;
 }
