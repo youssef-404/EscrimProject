@@ -9,6 +9,11 @@ public class Dim2D {
         this.width = width;
     }
 
+    @Override
+    public String toString() {
+        return length + "x" + width;
+    }
+
     public double getLength() {
         return length;
     }
