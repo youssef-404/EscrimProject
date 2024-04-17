@@ -12,10 +12,16 @@ public class Main extends Application {
 	public void start(Stage stage) {
 		try {
 	        FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("view/view.fxml"));
-	        Scene scene = new Scene(fxmlLoader.load(), 400, 400);
+	        Scene scene = new Scene(fxmlLoader.load());
 	        stage.setTitle("Hello!");
 	        stage.setScene(scene);
 	        stage.show();
+	        
+	        stage.setMinWidth(stage.getWidth());
+	        stage.setMaxWidth(stage.getWidth());
+	        stage.setMinHeight(stage.getHeight());
+	        stage.setMaxHeight(stage.getHeight());
+	        
 		} catch(Exception e) {
 			e.printStackTrace();
 		}
