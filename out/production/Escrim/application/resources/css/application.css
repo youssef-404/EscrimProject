@@ -34,3 +34,53 @@
 	-fx-text-fill: white;
 	-fx-font-size: 14px;
 }
+
+
+.table-view {
+    -fx-background-color: white;
+    -fx-table-cell-border-color: transparent;
+    -fx-table-header-border-color: #d3d3d3;
+}
+
+.table-view .column-header-background {
+    -fx-background-color: #f4f4f4;
+}
+
+.table-view .column-header {
+    -fx-background-color: #f4f4f4;
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 0 0 1 0;
+}
+
+.table-view .table-row-cell {
+    -fx-background-color: white;
+    -fx-border-color: transparent;
+    -fx-padding: 5px;
+}
+
+.table-view .table-cell {
+    -fx-border-color: #d3d3d3;
+    -fx-border-width: 0 0 1 1;
+    -fx-text-overrun: ellipsis;
+}
+
+.table-view .table-cell:empty {
+    -fx-background-color: white;
+}
+
+.table-view:focused .table-row-cell:focused:selected {
+    -fx-background-color: #b0c4de;
+}
+
+.table-view:focused .table-row-cell:focused:selected .table-cell {
+    -fx-border-color: #b0c4de;
+}
+
+
+.popup-pane {
+    -fx-background-color: white;
+    -fx-padding: 10;
+    -fx-border-width: 1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.8), 10, 0, 0, 0);
+}
+
