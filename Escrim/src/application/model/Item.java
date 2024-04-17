@@ -2,6 +2,7 @@ package application.model;
 
 public class Item {
     private int id;
+    private String designation;
     private int quantity;
 
     public Item(int id, int quantity) {

@@ -7,5 +7,6 @@ public class Medicaments {
     private String DCI;
     private String dosage;
     private LocalDate DLU;
+    private String medClass;
     private int lot;
 }

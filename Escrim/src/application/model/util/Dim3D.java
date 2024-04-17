@@ -11,6 +11,11 @@ public class Dim3D {
         this.height = height;
     }
 
+    @Override
+    public String toString() {
+        return length + "x" + width + "x" + height;
+    }
+
     public double getLength() {
         return length;
     }
